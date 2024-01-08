@@ -1,0 +1,100 @@
+Format 1-->
+
+
+Hey folks,
+
+Just dropped my algorithmic wizardry on the Daily LeetCode challenge for November 4th-2023. Peep the code sorcery!????
+
+
+
+Problem link: https: https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/description/?envType=daily-question&envId=2023-11-04
+
+
+
+GitHub Solution link: https://github.com/SanketRakshe/Leetcode-Daily-Challenge/blob/master/Last%20Moment%20Before%20All%20Ants%20Fall%20Out%20of%20a%20Plank.cpp
+
+
+
+Extracting wisdom from the matrix of the problem:
+
+The primary takeaway from this problem is realizing the straightforward approach to calculating the moment of the last collision in a scenario where particles are approaching each other from opposite directions. By examining the initial positions of particles on both sides and selecting the maximum position among those moving to the left and the maximum distance traveled by a particle on the right, the algorithm effectively pinpoints the precise moment of the final collision. 
+
+
+
+Complexity:
+
+Time complexity: O(N)
+
+Since we are only using two for loops to traverse over the arrays and the lengths of the two arrays are maximum N then time complexity is O(N).
+
+Space complexity: O(1)
+
+Since we are using constant variables.
+
+
+
+
+
+
+
+Format 1-->
+
+
+
+Hey folks,
+
+
+I've just thrown down some algorithmic skills in the Daily LeetCode challenge for November 5th, 2023. Behold the enchanting code I've crafted!
+
+Problem link: https://leetcode.com/problems/find-the-winner-of-an-array-game/description/?envType=daily-question&envId=2023-11-05
+
+GitHub Solution link: https://github.com/SanketRakshe/Leetcode-Daily-Challenge/blob/master/Find%20the%20Winner%20of%20an%20Array%20Game.cpp
+
+
+Mining valuable insights from the problem's data matrix:
+
+Through this problem, I've learned how to determine the winner in a game where two distinct integers compete based on a set of rules.
+ This experience has provided valuable insights into efficiently handling edge cases, such as when the number of rounds (k) is substantial relative to the array size or when the maximum element in the array is the clear winner.
+ My solution effectively tracks the current winner and the number of consecutive wins, enabling optimization by avoiding unnecessary comparisons.
+
+
+Time complexity: O(N)
+It iterates through the array of length 'n' once.
+
+Space complexity: O(1) 
+ It uses a constant amount of additional space regardless of the input size, as it only uses a few integer variables to keep track of the current winner and consecutive wins.
+
+
+
+
+Frormat 3-->
+
+Hello everyone,
+
+
+
+Just Conjured Some Algorithmic Magic on the November 8th Daily LeetCode Challenge! Check Out My Enchanted Code!??
+
+
+
+Intuition: The problem involves navigating a 2D grid from a starting point to a target point in a certain amount of time while following the rule of moving to adjacent cells each second. The goal is to determine if it's possible to reach the target within the given time limit. To solve this, we calculate the vertical and horizontal distances between the start and target cells and compare these distances with the given time constraint. If the time is sufficient to cover the longer of the two distances, the answer is "true," otherwise, it's "false."
+
+
+
+Problem link: https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/submissions/1094580680/?envType=daily-question&envId=2023-11-08
+
+
+
+GitHub Solution link: https://github.com/SanketRakshe/Leetcode-Daily-Challenge/blob/master/DetermineifaCellIsReachableataGivenTime.cpp
+
+
+
+Gleaning Knowledge from the Problem: This problem underscores the significance of optimizing pathfinding in a grid by selecting the maximum distance (vertical or horizontal) to minimize traversal time. It also emphasizes the necessity of handling edge cases where the starting and target cells coincide, necessitating a minimum of 1 second at the same location. Furthermore, it demonstrates the efficiency of solving such computational challenges through concise mathematical calculations.
+
+
+
+Time Complexity: The time complexity of this solution is O(1) because it performs a few simple mathematical calculations and comparisons. The input size does not affect the time complexity.
+
+
+
+Space Complexity: The space complexity is O(1) as well because the solution does not use any additional data structures that depend on the input size.
